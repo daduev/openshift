@@ -194,8 +194,8 @@
             </datasources>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:deployment-scanner:2.0">
-            <deployment-scanner path="deployments" relative-to="jboss.server.base.dir" scan-interval="5000" runtime-failure-causes-rollback="${jboss.deployment.scanner.rollback.on.failure:false}" can-enabled="false"/>
-			<deployment-scanner name="jbosstoolsscanner1" path="jboss.server.base.dir\deployments" scan-interval="5000" deployment-timeout="600" can-enabled="true"/>
+            <deployment-scanner path="deployments" relative-to="jboss.server.base.dir" scan-interval="5000" runtime-failure-causes-rollback="${jboss.deployment.scanner.rollback.on.failure:false}" scan-enabled="false"/>
+			<deployment-scanner name="jbosstoolsscanner1" path="jboss.server.base.dir\deployments" scan-interval="5000" deployment-timeout="600" scan-enabled="true"/>
         </subsystem>
         <subsystem xmlns="urn:jboss:domain:ee:2.0">
             <spec-descriptor-property-replacement>false</spec-descriptor-property-replacement>
