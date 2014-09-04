@@ -1,4 +1,4 @@
 echo "EXECUTING PRE_START"
-export JAVA_OPTS_EXT="-Djboss.modules.system.pkgs=org.jboss.logmanager -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Xbootclasspath/p:${JBOSS_HOME}/modules/system/layers/base/org/jboss/logmanager/main/jboss-logmanager-1.5.2.Final.jar
+export JAVA_OPTS_EXT="-Djboss.modules.system.pkgs=org.jboss.logmanager -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Xbootclasspath/p:${JBOSS_HOME}modules/system/layers/base/org/jboss/logmanager/main/jboss-logmanager-1.5.2.Final.jar
 	-Dcom.sun.management.jmxremote=true -Dcom.sun.management.jmxremote.port=7091 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false 
 	-Duser.timezone=Europe/Kiev"
