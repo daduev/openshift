@@ -1,5 +1,3 @@
 echo "EXECUTING PRE_START"
-export JAVA_OPTS_EXT="-Duser.timezone=Europe/Kiev
--Dcom.sun.management.jmxremote=true -Dcom.sun.management.jmxremote.port=7091 	
--Dcom.sun.management.jmxremote.password.file=/var/lib/openshift/5406e3aa500446a793000178/wildfly/standalone/deployments/jmxremote.password
--Dcom.sun.management.jmxremote.access.file=/var/lib/openshift/5406e3aa500446a793000178/wildfly/standalone/deployments/jmxremote.access"
+export JAVA_OPTS_EXT="-Duser.timezone=Europe/Kiev"
+java -jar /var/lib/openshift/5406e3aa500446a793000178/wildfly/bin/client/jboss-cli-client.jar
