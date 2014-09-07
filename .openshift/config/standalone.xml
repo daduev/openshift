@@ -527,7 +527,6 @@
     <interfaces>
         <interface name="management">
             <loopback-address value="${env.OPENSHIFT_WILDFLY_IP}"/>
-            <inet-address value="${jboss.bind.address.management:127.0.0.1}"/>
         </interface>
         <interface name="public">
             <loopback-address value="${env.OPENSHIFT_WILDFLY_IP}"/>
@@ -542,7 +541,6 @@
         </interface>
     </interfaces>
     <socket-binding-group name="standard-sockets" default-interface="public" port-offset="${jboss.socket.binding.port-offset:0}">
-    	<socket-binding name="management-native" interface="management" port="${jboss.management.native.port:9999}"/>
         <socket-binding name="management-http" interface="management" port="${jboss.management.http.port:9990}"/>
         <socket-binding name="management-https" interface="management" port="${jboss.management.https.port:9993}"/>
         <socket-binding name="jgroups-tcp" port="${env.OPENSHIFT_WILDFLY_CLUSTER_PORT}"/>
