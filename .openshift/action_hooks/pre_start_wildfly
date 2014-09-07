@@ -1,3 +1,2 @@
 echo "EXECUTING PRE_START"
 export JAVA_OPTS_EXT="-Duser.timezone=Europe/Kiev"
-java -jar /var/lib/openshift/5406e3aa500446a793000178/wildfly/bin/client/jboss-cli-client.jar
