@@ -1,3 +1,2 @@
 echo "EXECUTING POST_START"
 #java -jar /var/lib/openshift/5406e3aa500446a793000178/wildfly/bin/client/jboss-cli-client.jar
-jconsole -J-Djava.class.path=/var/lib/openshift/5406e3aa500446a793000178/wildfly/usr/lib/jvm/jdk1.8.0_05/lib/jconsole.jar;/var/lib/openshift/5406e3aa500446a793000178/wildfly/usr/lib/jvm/jdk1.8.0_05/lib/tools.jar;/var/lib/openshift/5406e3aa500446a793000178/wildfly/bin/client/jboss-cli-client.jar
