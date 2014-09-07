@@ -1,2 +1,2 @@
 echo "EXECUTING PRE_START"
-export JAVA_OPTS_EXT="-Djboss.bind.address.management=${env.OPENSHIFT_WILDFLY_IP} -Djboss.management.native.port=9999 -Duser.timezone=Europe/Kiev"
+export JAVA_OPTS_EXT="-Djboss.bind.address.management=$OPENSHIFT_WILDFLY_IP -Djboss.management.native.port=9999 -Duser.timezone=Europe/Kiev"
