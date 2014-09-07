@@ -1,4 +1,4 @@
 echo "EXECUTING PRE_START"
 #-Djboss.modules.system.pkgs=org.jboss.logmanager -Xbootclasspath/a:${OPENSHIFT_WILDFLY_DIR}modules/system/layers/base/org/jboss/logmanager/main/jboss-logmanager-1.5.2.Final.jar -Djava.util.logging.manager=org.jboss.logmanager.LogManager
-#-Dcom.sunmanagement.jmxremote=true -Dcom.sun.management.jmxremote.port=15001 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false
-export JAVA_OPTS_EXT="-Duser.timezone=Europe/Kiev -Dcom.sunmanagement.jmxremote=true -Dcom.sun.management.jmxremote.port=15001"
+#-Dcom.sunmanagement.jmxremote=true -Dcom.sun.management.jmxremote.port=15002 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false
+export JAVA_OPTS_EXT="-Duser.timezone=Europe/Kiev"
