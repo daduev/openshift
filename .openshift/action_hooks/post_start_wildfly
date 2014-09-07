@@ -1,2 +1,2 @@
 echo "EXECUTING POST_START"
-java -jar /var/lib/openshift/5406e3aa500446a793000178/wildfly/bin/client/jboss-cli-client.jar -c --controller=remote://localhost:15001
+java -jar /var/lib/openshift/5406e3aa500446a793000178/wildfly/bin/client/jboss-cli-client.jar -c --controller=remote://127.8.13.129:15001
