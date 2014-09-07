@@ -1,2 +1,2 @@
 echo "EXECUTING PRE_START"
-export JAVA_OPTS_EXT="-Djboss.bind.address.management=127.0.0.1 -Djboss.management.native.port=9999 -Duser.timezone=Europe/Kiev"
+export JAVA_OPTS_EXT="-Djboss.bind.address.management=127.8.13.129 -Djboss.management.native.port=15001 -Duser.timezone=Europe/Kiev"
