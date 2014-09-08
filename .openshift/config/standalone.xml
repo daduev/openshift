@@ -552,9 +552,6 @@
         <socket-binding name="jacorb-ssl" interface="unsecure" port="3529"/>
         <socket-binding name="txn-recovery-environment" port="4712"/>
         <socket-binding name="txn-status-manager" port="4713"/>
-        
-        <socket-binding name="jmx-connector-registry" port="15001"/>
-        <socket-binding name="jmx-connector-server" port="15002"/>
         <outbound-socket-binding name="mail-smtp">
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
