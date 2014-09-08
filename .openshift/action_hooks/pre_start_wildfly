@@ -1,3 +1,3 @@
 echo "EXECUTING PRE_START"
 #-Djboss.bind.address.management=$OPENSHIFT_WILDFLY_IP -Djboss.management.native.port=15001
-export JAVA_OPTS_EXT="-Dcom.sunmanagement.jmxremote=true -Djava.rmi.server.hostname=$OPENSHIFT_WILDFLY_IP -Dcom.sun.management.jmxremote.port=15001 -Duser.timezone=Europe/Kiev"
+export JAVA_OPTS_EXT="-Djboss.bind.address.management=$OPENSHIFT_WILDFLY_IP -Djboss.management.native.port=15001 -Dcom.sunmanagement.jmxremote=true -Djava.rmi.server.hostname=$OPENSHIFT_WILDFLY_IP -Dcom.sun.management.jmxremote.port=15001 -Duser.timezone=Europe/Kiev"
